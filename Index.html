@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Biología</title>
+</head>
+<body bgcolor="#F3E2C2">
+    <h1 style="text-align: center;">Biología</h1>
+
+    <h2 style="color:#55400C">Definición</h2>
+
+    <p>Es la ciencia que estudia el origen, la evolución y 
+        las características de los seres vivos, así como sus 
+        procesos vitales, su comportamiento y su interacción 
+        entre sí y con el medio ambiente.</p>
+
+     <h2 style="color:#55400C">Importancia</h2>
+     
+     <p>Nos ayuda a entender, valorar y cuidar la vida. 
+         La biología es una disciplina importante pues 
+         mediante ella podemos develar los misterios de 
+         la vida tal y como la conocemos, incluido su origen 
+         (y el nuestro propio) y las leyes que la fundamentan.</p>
+
+    <h2 style="color:#55400C">Niveles de organización ecológica</h2>
+
+    <li><u>Individuo:</u> se trata de seres vivos, no necesariamente animales, que muchas veces son funcionales y pueden reaccionar a estímulos o en ocasiones incluso llevar a cabo acciones complejas.</li>
+    <li><u>Población:</u> agrupación de individuos de la misma especie que conviven o que se organizan de manera conjunta para sobrevivir en un momento determinado y en un lugar concreto</li>
+    <li><u>Comunidad:</u> conjunto de poblaciones de diferentes especies, y que interactúan entre sí en una zona concreta.</li>
+    <li><u>Ecosistema:</u> entorno físico extenso caracterizado por fenómenos que van más allá de la existencia de seres vivos, como la temperatura, el nivel de luminosidad, las precipitaciones, etc.</li>
+    <li><u>Bioma:</u> categoría que engloba a varios ecosistemas que presentan algunas similitudes entre sí</li>
+    <li><u>Biosfera:</u> es el nivel de organización ecológica más grande, y abarca todo el planeta, compuesto por el encaje de los diferentes biomas.</li>
+
+    <h2 style="color:#55400C">3 Ramas de la biología</h2>
+
+    <table border="2">
+        <tr>
+            <td>Zoología:</td>
+            <td>Se encarga del estudio de los animales.<br>
+                <img src="imagenes/zoologia.jpg" alt="Zoología" width="300" height="150">
+            </td>
+        </tr>
+        <tr>
+            <td>Micología:</td>
+            <td>Es el estudio de los hongos, 
+                microorganismos eucarióticos que 
+                evolucionaron de manera sucesiva (en tandem) con 
+                el reino animal.<br>
+                <img src="imagenes/Micologia.jpg" alt="Micologia" width="300" height="150">
+            </td>
+        </tr>
+        <tr>
+            <td>Microbiología:</td>
+            <td>Es el estudio de aquellos seres vivos pequeños 
+                cuyo tamaño está por debajo del alcance del ojo 
+                humano. <br>
+                <img src="imagenes/microbiologia.jpg" alt="Micrología" width="300" height="150">
+            </td>          
+        </tr>
+    </table>
+    <br><br>
+
+    <h2 style="color:#55400C">Preguntas</h2>
+
+    <form action="registrardatos.php" method="post">
+
+        Ingrese su nombre completo:
+        
+        <input type="text" name="nombre" size="20">
+        
+        <br><br>
+
+        ¿Qué es la biologia?
+        <input type="text" name="biología" size="20">
+        
+        <br><br>
+
+        Defina "Adaptación morfológica"
+        <input type="text" name="morfológica" size="20">
+        
+        <br><br>
+
+        Explique, ¿qué es la fotosíntesis?<br>
+        <textarea name="fotosíntesis" rows="5" cols="60"></textarea>
+
+        <br>
+
+        <br>
+
+        Seleccione tipos de mamíferos:
+
+        <br>
+
+        <input type="checkbox" name="Pez">Pez<br>
+
+        <input type="checkbox" name="León">León<br>
+
+        <input type="checkbox" name="Cabra">Cabra<br>
+
+        <input type="checkbox" name="Ornitorinco">Ornitorinco<br><br>
+
+        ¿Es el agua un recurso ilimitado?
+
+        <br>
+
+        <input type="radio" name="estudios" value="Si">Si<br>
+
+        <input type="radio" name="estudios" value="No">No<br><br>
+        
+        Seleccione el reptil:
+
+        <select name="pais">
+
+        <option value="1">Rana</option>
+
+        <option value="2">Pez</option>
+
+        <option value="3">Lagarto</option>
+
+        </select><br><br>
+
+        Suba una foto de un anfibio:
+
+        <input type="file" name="foto"> <br><br>
+
+        <h2>Gracias</h2>
+
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+        </form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biología</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Biología</h1>
+
+    <h2>Definición</h2>
+
+    <p>Es la ciencia que estudia el origen, la evolución y 
+        las características de los seres vivos, así como sus 
+        procesos vitales, su comportamiento y su interacción 
+        entre sí y con el medio ambiente.</p>
+
+     <h2>Importancia</h2>
+     
+     <p>Nos ayuda a entender, valorar y cuidar la vida. 
+         La biología es una disciplina importante pues 
+         mediante ella podemos develar los misterios de 
+         la vida tal y como la conocemos, incluido su origen 
+         (y el nuestro propio) y las leyes que la fundamentan.</p>
+
+    <h2>Niveles de organización ecológica</h2>
+
+    <li><u>Individuo:</u> se trata de seres vivos, no necesariamente animales, que muchas veces son funcionales y pueden reaccionar a estímulos o en ocasiones incluso llevar a cabo acciones complejas.</li>
+    <li><u>Población:</u> agrupación de individuos de la misma especie que conviven o que se organizan de manera conjunta para sobrevivir en un momento determinado y en un lugar concreto</li>
+    <li><u>Comunidad:</u> conjunto de poblaciones de diferentes especies, y que interactúan entre sí en una zona concreta.</li>
+    <li><u>Ecosistema:</u> entorno físico extenso caracterizado por fenómenos que van más allá de la existencia de seres vivos, como la temperatura, el nivel de luminosidad, las precipitaciones, etc.</li>
+    <li><u>Bioma:</u> categoría que engloba a varios ecosistemas que presentan algunas similitudes entre sí</li>
+    <li><u>Biosfera:</u> es el nivel de organización ecológica más grande, y abarca todo el planeta, compuesto por el encaje de los diferentes biomas.</li>
+
+    <h2>3 Ramas de la biología</h2>
+
+    <table border="2">
+        <tr>
+            <td>Zoología:</td>
+            <td>Se encarga del estudio de los animales.<br>
+                <img src="imagenes/zoologia.jpg" alt="Zoología" width="300" height="150">
+            </td>
+        </tr>
+        <tr>
+            <td>Micología:</td>
+            <td>Es el estudio de los hongos, 
+                microorganismos eucarióticos que 
+                evolucionaron de manera sucesiva (en tandem) con 
+                el reino animal.<br>
+                <img src="imagenes/Micologia.jpg" alt="Micologia" width="300" height="150">
+            </td>
+        </tr>
+        <tr>
+            <td>Microbiología:</td>
+            <td>Es el estudio de aquellos seres vivos pequeños 
+                cuyo tamaño está por debajo del alcance del ojo 
+                humano. <br>
+                <img src="imagenes/microbiologia.jpg" alt="Micrología" width="300" height="150">
+            </td>
+            
+        </tr>
+    </table>
+
+</body>
+</html>
